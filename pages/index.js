@@ -1,10 +1,17 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import Img from 'next/image';
+import Head from 'next/head';
 
 function Home() {
     return (
         <div>
+            <Head>
+                <script
+                    data-ad-client="ca-pub-3278313672041597"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+            </Head>
             <h1>Home</h1>
             <Link href="/sobre">
                 <a>Acessar página Sobre</a>
